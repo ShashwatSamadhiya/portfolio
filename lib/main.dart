@@ -30,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
  
     return Scaffold(
-
+      backgroundColor: Colors.black,
       body: Center(
        
         child: Container(
@@ -40,12 +40,12 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                  Text("Hi there! I'm Shashwat",                  textAlign: TextAlign.center,
-style: Theme.of(context).textTheme.headlineLarge,),
+style: TextStyle(fontSize: 22,color: Colors.white,),),
  const SizedBox(height: 36,),
                 Text(
                   "Passionate Software Engineer focused on creating innovative, efficient, and scalable solutions with a commitment to continuous learning and problem-solving.",
                   textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.headlineSmall,
+                  style: TextStyle(fontSize: 22,color: Colors.white,),
                 ),
               ],
             ),
